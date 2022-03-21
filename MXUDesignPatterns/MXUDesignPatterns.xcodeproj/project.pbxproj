@@ -22,6 +22,11 @@
 		55F416E127E864340057BC2B /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E027E864340057BC2B /* OperationFactory.m */; };
 		55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E427E866550057BC2B /* SimpleFactoryTests.m */; };
 		55F416E727E86CE40057BC2B /* MXUDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */; };
+		5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE627E8C40200F2C6AA /* CashContext.m */; };
+		5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE927E8C5A300F2C6AA /* CashNormal.m */; };
+		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
+		5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEF27E8C79A00F2C6AA /* CashReturn.m */; };
+		5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DF227E8C97900F2C6AA /* StrategyTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +69,16 @@
 		55F416E027E864340057BC2B /* OperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
 		55F416E427E866550057BC2B /* SimpleFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryTests.m; sourceTree = "<group>"; };
 		55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXUDesignPatternsTests.m; sourceTree = "<group>"; };
+		5F634DE427E8B8CF00F2C6AA /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
+		5F634DE527E8C40200F2C6AA /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
+		5F634DE627E8C40200F2C6AA /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
+		5F634DE827E8C5A300F2C6AA /* CashNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashNormal.h; sourceTree = "<group>"; };
+		5F634DE927E8C5A300F2C6AA /* CashNormal.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashNormal.m; sourceTree = "<group>"; };
+		5F634DEB27E8C66E00F2C6AA /* CashRebate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashRebate.h; sourceTree = "<group>"; };
+		5F634DEC27E8C66E00F2C6AA /* CashRebate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashRebate.m; sourceTree = "<group>"; };
+		5F634DEE27E8C79A00F2C6AA /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
+		5F634DEF27E8C79A00F2C6AA /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
+		5F634DF227E8C97900F2C6AA /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +126,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F634DE327E8B86A00F2C6AA /* Strategy */,
 				55F416CE27E85D2C0057BC2B /* SimpleFactory */,
 				55F416A227E85CF90057BC2B /* Main.storyboard */,
 				55F416A527E85CFA0057BC2B /* Assets.xcassets */,
@@ -125,6 +141,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F634DF127E8C94D00F2C6AA /* Strategy */,
 				55F416E227E865BC0057BC2B /* SimpleFactory */,
 				55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */,
 				55F416B727E85CFB0057BC2B /* Info.plist */,
@@ -157,6 +174,30 @@
 				55F416E427E866550057BC2B /* SimpleFactoryTests.m */,
 			);
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		5F634DE327E8B86A00F2C6AA /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				5F634DE427E8B8CF00F2C6AA /* CashSuper.h */,
+				5F634DE527E8C40200F2C6AA /* CashContext.h */,
+				5F634DE627E8C40200F2C6AA /* CashContext.m */,
+				5F634DE827E8C5A300F2C6AA /* CashNormal.h */,
+				5F634DE927E8C5A300F2C6AA /* CashNormal.m */,
+				5F634DEB27E8C66E00F2C6AA /* CashRebate.h */,
+				5F634DEC27E8C66E00F2C6AA /* CashRebate.m */,
+				5F634DEE27E8C79A00F2C6AA /* CashReturn.h */,
+				5F634DEF27E8C79A00F2C6AA /* CashReturn.m */,
+			);
+			path = Strategy;
+			sourceTree = "<group>";
+		};
+		5F634DF127E8C94D00F2C6AA /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				5F634DF227E8C97900F2C6AA /* StrategyTests.m */,
+			);
+			path = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,12 +302,16 @@
 				55F416DB27E863600057BC2B /* OperationMul.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
+				5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
+				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
+				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,
 				55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */,
 				55F416D127E85F960057BC2B /* Operation.m in Sources */,
 				55F416AC27E85CFA0057BC2B /* main.m in Sources */,
 				55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */,
 				55F416DE27E863680057BC2B /* OperationDiv.m in Sources */,
+				5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */,
 				55F416D527E862E50057BC2B /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */,
 				55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */,
 				55F416E727E86CE40057BC2B /* MXUDesignPatternsTests.m in Sources */,
 			);
