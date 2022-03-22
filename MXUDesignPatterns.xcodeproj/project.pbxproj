@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5575073127E9A95600BA2839 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575073027E9A95600BA2839 /* Employee.m */; };
+		5575073427E9AC5100BA2839 /* AccountantDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575073327E9AC5100BA2839 /* AccountantDepartment.m */; };
+		5575073727E9AD0400BA2839 /* HRDepartment.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575073627E9AD0400BA2839 /* HRDepartment.m */; };
 		55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4169A27E85CF90057BC2B /* AppDelegate.m */; };
 		55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4169D27E85CF90057BC2B /* SceneDelegate.m */; };
 		55F416A127E85CF90057BC2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416A027E85CF90057BC2B /* ViewController.m */; };
@@ -40,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5575072F27E9A95600BA2839 /* Employee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		5575073027E9A95600BA2839 /* Employee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		5575073227E9AC5100BA2839 /* AccountantDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountantDepartment.h; sourceTree = "<group>"; };
+		5575073327E9AC5100BA2839 /* AccountantDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountantDepartment.m; sourceTree = "<group>"; };
+		5575073527E9AD0400BA2839 /* HRDepartment.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HRDepartment.h; sourceTree = "<group>"; };
+		5575073627E9AD0400BA2839 /* HRDepartment.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HRDepartment.m; sourceTree = "<group>"; };
 		55F4169627E85CF90057BC2B /* MXUDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXUDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F4169927E85CF90057BC2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55F4169A27E85CF90057BC2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -99,6 +108,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5575072E27E9A8C200BA2839 /* SingleResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				5575072F27E9A95600BA2839 /* Employee.h */,
+				5575073027E9A95600BA2839 /* Employee.m */,
+				5575073227E9AC5100BA2839 /* AccountantDepartment.h */,
+				5575073327E9AC5100BA2839 /* AccountantDepartment.m */,
+				5575073527E9AD0400BA2839 /* HRDepartment.h */,
+				5575073627E9AD0400BA2839 /* HRDepartment.m */,
+			);
+			path = SingleResponsibility;
+			sourceTree = "<group>";
+		};
 		55F4168D27E85CF90057BC2B = {
 			isa = PBXGroup;
 			children = (
@@ -126,6 +148,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5575072E27E9A8C200BA2839 /* SingleResponsibility */,
 				5F634DE327E8B86A00F2C6AA /* Strategy */,
 				55F416CE27E85D2C0057BC2B /* SimpleFactory */,
 				55F416A227E85CF90057BC2B /* Main.storyboard */,
@@ -299,10 +322,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5575073127E9A95600BA2839 /* Employee.m in Sources */,
 				55F416DB27E863600057BC2B /* OperationMul.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
 				5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */,
+				5575073427E9AC5100BA2839 /* AccountantDepartment.m in Sources */,
+				5575073727E9AD0400BA2839 /* HRDepartment.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
 				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,
