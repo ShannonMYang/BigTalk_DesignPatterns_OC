@@ -15,6 +15,12 @@
 		5575074127E9B1AA00BA2839 /* VideoCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575074027E9B1AA00BA2839 /* VideoCourse.m */; };
 		5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575074327E9B1F500BA2839 /* AudioCourse.m */; };
 		5575074727E9B27C00BA2839 /* LiveCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 5575074627E9B27C00BA2839 /* LiveCourse.m */; };
+		558DA84E27EAC6FC001F4B22 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA84D27EAC6FC001F4B22 /* Person.m */; };
+		558DA85127EACCB1001F4B22 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA85027EACCB1001F4B22 /* Finery.m */; };
+		558DA85427EACF0E001F4B22 /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA85327EACF0E001F4B22 /* BigTrouser.m */; };
+		558DA85727EB1110001F4B22 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA85627EB1110001F4B22 /* TShirts.m */; };
+		558DA85A27EB140A001F4B22 /* DecorateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA85927EB140A001F4B22 /* DecorateTests.m */; };
+		558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = 558DA85C27EB1C38001F4B22 /* Sneakers.m */; };
 		55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4169A27E85CF90057BC2B /* AppDelegate.m */; };
 		55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F4169D27E85CF90057BC2B /* SceneDelegate.m */; };
 		55F416A127E85CF90057BC2B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416A027E85CF90057BC2B /* ViewController.m */; };
@@ -64,6 +70,17 @@
 		5575074327E9B1F500BA2839 /* AudioCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AudioCourse.m; sourceTree = "<group>"; };
 		5575074527E9B27C00BA2839 /* LiveCourse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LiveCourse.h; sourceTree = "<group>"; };
 		5575074627E9B27C00BA2839 /* LiveCourse.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LiveCourse.m; sourceTree = "<group>"; };
+		558DA84C27EAC6FC001F4B22 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		558DA84D27EAC6FC001F4B22 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		558DA84F27EACCB1001F4B22 /* Finery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		558DA85027EACCB1001F4B22 /* Finery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		558DA85227EACF0E001F4B22 /* BigTrouser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BigTrouser.h; sourceTree = "<group>"; };
+		558DA85327EACF0E001F4B22 /* BigTrouser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BigTrouser.m; sourceTree = "<group>"; };
+		558DA85527EB1110001F4B22 /* TShirts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		558DA85627EB1110001F4B22 /* TShirts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		558DA85927EB140A001F4B22 /* DecorateTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecorateTests.m; sourceTree = "<group>"; };
+		558DA85B27EB1C38001F4B22 /* Sneakers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Sneakers.h; sourceTree = "<group>"; };
+		558DA85C27EB1C38001F4B22 /* Sneakers.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Sneakers.m; sourceTree = "<group>"; };
 		55F4169627E85CF90057BC2B /* MXUDesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MXUDesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55F4169927E85CF90057BC2B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		55F4169A27E85CF90057BC2B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -153,6 +170,31 @@
 			path = OpenClose;
 			sourceTree = "<group>";
 		};
+		558DA84B27EAC689001F4B22 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				558DA84C27EAC6FC001F4B22 /* Person.h */,
+				558DA84D27EAC6FC001F4B22 /* Person.m */,
+				558DA84F27EACCB1001F4B22 /* Finery.h */,
+				558DA85027EACCB1001F4B22 /* Finery.m */,
+				558DA85B27EB1C38001F4B22 /* Sneakers.h */,
+				558DA85C27EB1C38001F4B22 /* Sneakers.m */,
+				558DA85227EACF0E001F4B22 /* BigTrouser.h */,
+				558DA85327EACF0E001F4B22 /* BigTrouser.m */,
+				558DA85527EB1110001F4B22 /* TShirts.h */,
+				558DA85627EB1110001F4B22 /* TShirts.m */,
+			);
+			path = Decorate;
+			sourceTree = "<group>";
+		};
+		558DA85827EB11B4001F4B22 /* Decorate */ = {
+			isa = PBXGroup;
+			children = (
+				558DA85927EB140A001F4B22 /* DecorateTests.m */,
+			);
+			path = Decorate;
+			sourceTree = "<group>";
+		};
 		55F4168D27E85CF90057BC2B = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +222,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				558DA84B27EAC689001F4B22 /* Decorate */,
 				5575073827E9B0C500BA2839 /* OpenClose */,
 				5575072E27E9A8C200BA2839 /* SingleResponsibility */,
 				5F634DE327E8B86A00F2C6AA /* Strategy */,
@@ -197,6 +240,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				558DA85827EB11B4001F4B22 /* Decorate */,
 				5F634DF127E8C94D00F2C6AA /* Strategy */,
 				55F416E227E865BC0057BC2B /* SimpleFactory */,
 				55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */,
@@ -358,6 +402,7 @@
 				5575074127E9B1AA00BA2839 /* VideoCourse.m in Sources */,
 				5575073127E9A95600BA2839 /* Employee.m in Sources */,
 				55F416DB27E863600057BC2B /* OperationMul.m in Sources */,
+				558DA85427EACF0E001F4B22 /* BigTrouser.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
@@ -367,15 +412,19 @@
 				5575073727E9AD0400BA2839 /* HRDepartment.m in Sources */,
 				5575074727E9B27C00BA2839 /* LiveCourse.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
+				558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
 				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,
 				55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */,
 				5575073E27E9B17000BA2839 /* TextCourse.m in Sources */,
+				558DA85127EACCB1001F4B22 /* Finery.m in Sources */,
 				55F416D127E85F960057BC2B /* Operation.m in Sources */,
+				558DA85727EB1110001F4B22 /* TShirts.m in Sources */,
 				55F416AC27E85CFA0057BC2B /* main.m in Sources */,
 				55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */,
 				55F416DE27E863680057BC2B /* OperationDiv.m in Sources */,
 				5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */,
+				558DA84E27EAC6FC001F4B22 /* Person.m in Sources */,
 				55F416D527E862E50057BC2B /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +433,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558DA85A27EB140A001F4B22 /* DecorateTests.m in Sources */,
 				5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */,
 				55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */,
 				55F416E727E86CE40057BC2B /* MXUDesignPatternsTests.m in Sources */,
