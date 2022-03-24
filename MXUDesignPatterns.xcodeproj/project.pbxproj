@@ -36,6 +36,10 @@
 		55F416E127E864340057BC2B /* OperationFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E027E864340057BC2B /* OperationFactory.m */; };
 		55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E427E866550057BC2B /* SimpleFactoryTests.m */; };
 		55F416E727E86CE40057BC2B /* MXUDesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */; };
+		5F1AEEB627ECB07F00083346 /* SchoolGirl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEB527ECB07F00083346 /* SchoolGirl.m */; };
+		5F1AEEB927ECB0CA00083346 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEB827ECB0CA00083346 /* Pursuit.m */; };
+		5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBB27ECB49300083346 /* Proxy.m */; };
+		5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBE27ECB69D00083346 /* ProxyTests.m */; };
 		5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE627E8C40200F2C6AA /* CashContext.m */; };
 		5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE927E8C5A300F2C6AA /* CashNormal.m */; };
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
@@ -110,6 +114,14 @@
 		55F416E027E864340057BC2B /* OperationFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OperationFactory.m; sourceTree = "<group>"; };
 		55F416E427E866550057BC2B /* SimpleFactoryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleFactoryTests.m; sourceTree = "<group>"; };
 		55F416E627E86CE40057BC2B /* MXUDesignPatternsTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXUDesignPatternsTests.m; sourceTree = "<group>"; };
+		5F1AEEB327ECAFD700083346 /* GiveGift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GiveGift.h; sourceTree = "<group>"; };
+		5F1AEEB427ECB07F00083346 /* SchoolGirl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SchoolGirl.h; sourceTree = "<group>"; };
+		5F1AEEB527ECB07F00083346 /* SchoolGirl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SchoolGirl.m; sourceTree = "<group>"; };
+		5F1AEEB727ECB0CA00083346 /* Pursuit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		5F1AEEB827ECB0CA00083346 /* Pursuit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		5F1AEEBA27ECB49300083346 /* Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		5F1AEEBB27ECB49300083346 /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
+		5F1AEEBE27ECB69D00083346 /* ProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
 		5F634DE427E8B8CF00F2C6AA /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
 		5F634DE527E8C40200F2C6AA /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
 		5F634DE627E8C40200F2C6AA /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
@@ -222,6 +234,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F1AEEB227ECAF7B00083346 /* Proxy */,
 				558DA84B27EAC689001F4B22 /* Decorate */,
 				5575073827E9B0C500BA2839 /* OpenClose */,
 				5575072E27E9A8C200BA2839 /* SingleResponsibility */,
@@ -240,6 +253,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F1AEEBD27ECB68C00083346 /* Proxy */,
 				558DA85827EB11B4001F4B22 /* Decorate */,
 				5F634DF127E8C94D00F2C6AA /* Strategy */,
 				55F416E227E865BC0057BC2B /* SimpleFactory */,
@@ -274,6 +288,28 @@
 				55F416E427E866550057BC2B /* SimpleFactoryTests.m */,
 			);
 			path = SimpleFactory;
+			sourceTree = "<group>";
+		};
+		5F1AEEB227ECAF7B00083346 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AEEB327ECAFD700083346 /* GiveGift.h */,
+				5F1AEEB427ECB07F00083346 /* SchoolGirl.h */,
+				5F1AEEB527ECB07F00083346 /* SchoolGirl.m */,
+				5F1AEEB727ECB0CA00083346 /* Pursuit.h */,
+				5F1AEEB827ECB0CA00083346 /* Pursuit.m */,
+				5F1AEEBA27ECB49300083346 /* Proxy.h */,
+				5F1AEEBB27ECB49300083346 /* Proxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		5F1AEEBD27ECB68C00083346 /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AEEBE27ECB69D00083346 /* ProxyTests.m */,
+			);
+			path = Proxy;
 			sourceTree = "<group>";
 		};
 		5F634DE327E8B86A00F2C6AA /* Strategy */ = {
@@ -400,9 +436,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5575074127E9B1AA00BA2839 /* VideoCourse.m in Sources */,
+				5F1AEEB927ECB0CA00083346 /* Pursuit.m in Sources */,
+				5F1AEEB627ECB07F00083346 /* SchoolGirl.m in Sources */,
 				5575073127E9A95600BA2839 /* Employee.m in Sources */,
 				55F416DB27E863600057BC2B /* OperationMul.m in Sources */,
 				558DA85427EACF0E001F4B22 /* BigTrouser.m in Sources */,
+				5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
@@ -433,6 +472,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */,
 				558DA85A27EB140A001F4B22 /* DecorateTests.m in Sources */,
 				5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */,
 				55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */,
