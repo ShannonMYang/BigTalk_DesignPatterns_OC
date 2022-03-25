@@ -45,6 +45,10 @@
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
 		5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEF27E8C79A00F2C6AA /* CashReturn.m */; };
 		5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DF227E8C97900F2C6AA /* StrategyTests.m */; };
+		5FD926C027EE18B600AB0005 /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926BF27EE18B600AB0005 /* Undergraduate.m */; };
+		5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C227EE19B000AB0005 /* Volunteer.m */; };
+		5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */; };
+		5FD926CA27EE1BA700AB0005 /* VolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -122,6 +126,7 @@
 		5F1AEEBA27ECB49300083346 /* Proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
 		5F1AEEBB27ECB49300083346 /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
 		5F1AEEBE27ECB69D00083346 /* ProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
+		5F1AEEC127ECCB4700083346 /* ILeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFeng.h; sourceTree = "<group>"; };
 		5F634DE427E8B8CF00F2C6AA /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
 		5F634DE527E8C40200F2C6AA /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
 		5F634DE627E8C40200F2C6AA /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
@@ -132,6 +137,15 @@
 		5F634DEE27E8C79A00F2C6AA /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
 		5F634DEF27E8C79A00F2C6AA /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
 		5F634DF227E8C97900F2C6AA /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		5FD926BE27EE18B600AB0005 /* Undergraduate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
+		5FD926BF27EE18B600AB0005 /* Undergraduate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
+		5FD926C127EE19B000AB0005 /* Volunteer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
+		5FD926C227EE19B000AB0005 /* Volunteer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Volunteer.m; sourceTree = "<group>"; };
+		5FD926C427EE1AF900AB0005 /* ILeiFengFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFengFactory.h; sourceTree = "<group>"; };
+		5FD926C527EE1B9100AB0005 /* UndergraduateFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UndergraduateFactory.h; sourceTree = "<group>"; };
+		5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergraduateFactory.m; sourceTree = "<group>"; };
+		5FD926C827EE1BA700AB0005 /* VolunteerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolunteerFactory.h; sourceTree = "<group>"; };
+		5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolunteerFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -234,6 +248,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F1AEEC027ECCB1200083346 /* FactoryMethod */,
 				5F1AEEB227ECAF7B00083346 /* Proxy */,
 				558DA84B27EAC689001F4B22 /* Decorate */,
 				5575073827E9B0C500BA2839 /* OpenClose */,
@@ -310,6 +325,23 @@
 				5F1AEEBE27ECB69D00083346 /* ProxyTests.m */,
 			);
 			path = Proxy;
+			sourceTree = "<group>";
+		};
+		5F1AEEC027ECCB1200083346 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5F1AEEC127ECCB4700083346 /* ILeiFeng.h */,
+				5FD926BE27EE18B600AB0005 /* Undergraduate.h */,
+				5FD926BF27EE18B600AB0005 /* Undergraduate.m */,
+				5FD926C127EE19B000AB0005 /* Volunteer.h */,
+				5FD926C227EE19B000AB0005 /* Volunteer.m */,
+				5FD926C427EE1AF900AB0005 /* ILeiFengFactory.h */,
+				5FD926C527EE1B9100AB0005 /* UndergraduateFactory.h */,
+				5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */,
+				5FD926C827EE1BA700AB0005 /* VolunteerFactory.h */,
+				5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 		5F634DE327E8B86A00F2C6AA /* Strategy */ = {
@@ -445,6 +477,7 @@
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
+				5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */,
 				5575073B27E9B0F800BA2839 /* Course.m in Sources */,
 				5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */,
 				5575073427E9AC5100BA2839 /* AccountantDepartment.m in Sources */,
@@ -453,13 +486,16 @@
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
 				558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
+				5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */,
 				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,
 				55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */,
 				5575073E27E9B17000BA2839 /* TextCourse.m in Sources */,
 				558DA85127EACCB1001F4B22 /* Finery.m in Sources */,
 				55F416D127E85F960057BC2B /* Operation.m in Sources */,
+				5FD926CA27EE1BA700AB0005 /* VolunteerFactory.m in Sources */,
 				558DA85727EB1110001F4B22 /* TShirts.m in Sources */,
 				55F416AC27E85CFA0057BC2B /* main.m in Sources */,
+				5FD926C027EE18B600AB0005 /* Undergraduate.m in Sources */,
 				55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */,
 				55F416DE27E863680057BC2B /* OperationDiv.m in Sources */,
 				5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */,
