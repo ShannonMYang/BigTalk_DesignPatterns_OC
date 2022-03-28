@@ -45,6 +45,11 @@
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
 		5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEF27E8C79A00F2C6AA /* CashReturn.m */; };
 		5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DF227E8C97900F2C6AA /* StrategyTests.m */; };
+		5FD1F68A27F1F09900F0B954 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68927F1F09900F0B954 /* WorkExperience.m */; };
+		5FD1F68D27F1F1F600F0B954 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68C27F1F1F600F0B954 /* Resume.m */; };
+		5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68F27F1F4A400F0B954 /* ResumeShallowCopy.m */; };
+		5FD1F69327F1FAD600F0B954 /* ResumeDeepCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F69227F1FAD600F0B954 /* ResumeDeepCopy.m */; };
+		5FD1F69627F1FB8F00F0B954 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F69527F1FB8F00F0B954 /* Prototype.m */; };
 		5FD926C027EE18B600AB0005 /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926BF27EE18B600AB0005 /* Undergraduate.m */; };
 		5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C227EE19B000AB0005 /* Volunteer.m */; };
 		5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */; };
@@ -138,6 +143,15 @@
 		5F634DEE27E8C79A00F2C6AA /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
 		5F634DEF27E8C79A00F2C6AA /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
 		5F634DF227E8C97900F2C6AA /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		5FD1F68827F1F09900F0B954 /* WorkExperience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
+		5FD1F68927F1F09900F0B954 /* WorkExperience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkExperience.m; sourceTree = "<group>"; };
+		5FD1F68B27F1F1F600F0B954 /* Resume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resume.h; sourceTree = "<group>"; };
+		5FD1F68C27F1F1F600F0B954 /* Resume.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Resume.m; sourceTree = "<group>"; };
+		5FD1F68E27F1F4A400F0B954 /* ResumeShallowCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeShallowCopy.h; sourceTree = "<group>"; };
+		5FD1F68F27F1F4A400F0B954 /* ResumeShallowCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeShallowCopy.m; sourceTree = "<group>"; };
+		5FD1F69127F1FAD600F0B954 /* ResumeDeepCopy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResumeDeepCopy.h; sourceTree = "<group>"; };
+		5FD1F69227F1FAD600F0B954 /* ResumeDeepCopy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResumeDeepCopy.m; sourceTree = "<group>"; };
+		5FD1F69527F1FB8F00F0B954 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 		5FD926BE27EE18B600AB0005 /* Undergraduate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
 		5FD926BF27EE18B600AB0005 /* Undergraduate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
 		5FD926C127EE19B000AB0005 /* Volunteer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
@@ -250,6 +264,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5FD1F68727F1F06100F0B954 /* Prototype */,
 				5F1AEEC027ECCB1200083346 /* FactoryMethod */,
 				5F1AEEB227ECAF7B00083346 /* Proxy */,
 				558DA84B27EAC689001F4B22 /* Decorate */,
@@ -270,6 +285,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5FD1F69427F1FB7100F0B954 /* Prototype */,
 				5FD926CB27EF4A4B00AB0005 /* FactoryMethod */,
 				5F1AEEBD27ECB68C00083346 /* Proxy */,
 				558DA85827EB11B4001F4B22 /* Decorate */,
@@ -369,6 +385,29 @@
 				5F634DF227E8C97900F2C6AA /* StrategyTests.m */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		5FD1F68727F1F06100F0B954 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				5FD1F68827F1F09900F0B954 /* WorkExperience.h */,
+				5FD1F68927F1F09900F0B954 /* WorkExperience.m */,
+				5FD1F68B27F1F1F600F0B954 /* Resume.h */,
+				5FD1F68C27F1F1F600F0B954 /* Resume.m */,
+				5FD1F68E27F1F4A400F0B954 /* ResumeShallowCopy.h */,
+				5FD1F68F27F1F4A400F0B954 /* ResumeShallowCopy.m */,
+				5FD1F69127F1FAD600F0B954 /* ResumeDeepCopy.h */,
+				5FD1F69227F1FAD600F0B954 /* ResumeDeepCopy.m */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
+		5FD1F69427F1FB7100F0B954 /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				5FD1F69527F1FB8F00F0B954 /* Prototype.m */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		5FD926CB27EF4A4B00AB0005 /* FactoryMethod */ = {
@@ -487,6 +526,7 @@
 				5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
+				5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
 				5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */,
 				5575073B27E9B0F800BA2839 /* Course.m in Sources */,
@@ -494,6 +534,7 @@
 				5575073427E9AC5100BA2839 /* AccountantDepartment.m in Sources */,
 				5575073727E9AD0400BA2839 /* HRDepartment.m in Sources */,
 				5575074727E9B27C00BA2839 /* LiveCourse.m in Sources */,
+				5FD1F68D27F1F1F600F0B954 /* Resume.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
 				558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
@@ -509,8 +550,10 @@
 				5FD926C027EE18B600AB0005 /* Undergraduate.m in Sources */,
 				55F4169E27E85CF90057BC2B /* SceneDelegate.m in Sources */,
 				55F416DE27E863680057BC2B /* OperationDiv.m in Sources */,
+				5FD1F69327F1FAD600F0B954 /* ResumeDeepCopy.m in Sources */,
 				5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */,
 				558DA84E27EAC6FC001F4B22 /* Person.m in Sources */,
+				5FD1F68A27F1F09900F0B954 /* WorkExperience.m in Sources */,
 				55F416D527E862E50057BC2B /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +562,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD1F69627F1FB8F00F0B954 /* Prototype.m in Sources */,
 				5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */,
 				558DA85A27EB140A001F4B22 /* DecorateTests.m in Sources */,
 				5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */,
