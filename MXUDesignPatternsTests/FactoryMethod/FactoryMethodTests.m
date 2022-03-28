@@ -7,30 +7,35 @@
 
 #import <XCTest/XCTest.h>
 
+#import "ILeiFeng.h"
+#import "ILeiFengFactory.h"
+#import "UndergraduateFactory.h"
+#import "VolunteerFactory.h"
+
 @interface FactoryMethodTests : XCTestCase
 
 @end
 
 @implementation FactoryMethodTests
 
-- (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-}
-
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
+- (void)testFactoryMethod {
+    id<ILeiFengFactory> leiFengFactory = [[UndergraduateFactory alloc] init];
+//    id<ILeiFengFactory> leiFengFactory = [[VolunteerFactory alloc] init];
+    
+    id<ILeiFeng> studentA = [leiFengFactory createLeiFeng];
+    [studentA sweep];
+    [studentA wash];
+    [studentA bugRice];
+    
+    id<ILeiFeng> studentB = [leiFengFactory createLeiFeng];
+    [studentB sweep];
+    [studentB wash];
+    [studentB bugRice];
+    
+    id<ILeiFeng> studentC = [leiFengFactory createLeiFeng];
+    [studentC sweep];
+    [studentC wash];
+    [studentC bugRice];
 }
 
 @end

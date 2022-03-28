@@ -49,6 +49,7 @@
 		5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C227EE19B000AB0005 /* Volunteer.m */; };
 		5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */; };
 		5FD926CA27EE1BA700AB0005 /* VolunteerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */; };
+		5FD926CD27EF4A7A00AB0005 /* FactoryMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD926CC27EF4A7A00AB0005 /* FactoryMethodTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +147,7 @@
 		5FD926C627EE1B9100AB0005 /* UndergraduateFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UndergraduateFactory.m; sourceTree = "<group>"; };
 		5FD926C827EE1BA700AB0005 /* VolunteerFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VolunteerFactory.h; sourceTree = "<group>"; };
 		5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VolunteerFactory.m; sourceTree = "<group>"; };
+		5FD926CC27EF4A7A00AB0005 /* FactoryMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethodTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +270,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5FD926CB27EF4A4B00AB0005 /* FactoryMethod */,
 				5F1AEEBD27ECB68C00083346 /* Proxy */,
 				558DA85827EB11B4001F4B22 /* Decorate */,
 				5F634DF127E8C94D00F2C6AA /* Strategy */,
@@ -366,6 +369,14 @@
 				5F634DF227E8C97900F2C6AA /* StrategyTests.m */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		5FD926CB27EF4A4B00AB0005 /* FactoryMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5FD926CC27EF4A7A00AB0005 /* FactoryMethodTests.m */,
+			);
+			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -513,6 +524,7 @@
 				5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */,
 				55F416E527E866550057BC2B /* SimpleFactoryTests.m in Sources */,
 				55F416E727E86CE40057BC2B /* MXUDesignPatternsTests.m in Sources */,
+				5FD926CD27EF4A7A00AB0005 /* FactoryMethodTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
