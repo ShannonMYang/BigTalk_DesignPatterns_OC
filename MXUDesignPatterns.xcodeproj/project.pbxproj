@@ -40,6 +40,9 @@
 		5F1AEEB927ECB0CA00083346 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEB827ECB0CA00083346 /* Pursuit.m */; };
 		5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBB27ECB49300083346 /* Proxy.m */; };
 		5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBE27ECB69D00083346 /* ProxyTests.m */; };
+		5F30011D27FF390E0087F642 /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30011C27FF390E0087F642 /* TestPaper.m */; };
+		5F30012027FF392B0087F642 /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30011F27FF392B0087F642 /* TestPaperA.m */; };
+		5F30012327FF39370087F642 /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30012227FF39370087F642 /* TestPaperB.m */; };
 		5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE627E8C40200F2C6AA /* CashContext.m */; };
 		5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DE927E8C5A300F2C6AA /* CashNormal.m */; };
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
@@ -133,6 +136,12 @@
 		5F1AEEBB27ECB49300083346 /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
 		5F1AEEBE27ECB69D00083346 /* ProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
 		5F1AEEC127ECCB4700083346 /* ILeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFeng.h; sourceTree = "<group>"; };
+		5F30011B27FF390E0087F642 /* TestPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
+		5F30011C27FF390E0087F642 /* TestPaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
+		5F30011E27FF392B0087F642 /* TestPaperA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperA.h; sourceTree = "<group>"; };
+		5F30011F27FF392B0087F642 /* TestPaperA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperA.m; sourceTree = "<group>"; };
+		5F30012127FF39370087F642 /* TestPaperB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperB.h; sourceTree = "<group>"; };
+		5F30012227FF39370087F642 /* TestPaperB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaperB.m; sourceTree = "<group>"; };
 		5F634DE427E8B8CF00F2C6AA /* CashSuper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashSuper.h; sourceTree = "<group>"; };
 		5F634DE527E8C40200F2C6AA /* CashContext.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashContext.h; sourceTree = "<group>"; };
 		5F634DE627E8C40200F2C6AA /* CashContext.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashContext.m; sourceTree = "<group>"; };
@@ -264,6 +273,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F30011A27FF37F70087F642 /* TemplateMethod */,
 				5FD1F68727F1F06100F0B954 /* Prototype */,
 				5F1AEEC027ECCB1200083346 /* FactoryMethod */,
 				5F1AEEB227ECAF7B00083346 /* Proxy */,
@@ -361,6 +371,19 @@
 				5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		5F30011A27FF37F70087F642 /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5F30011B27FF390E0087F642 /* TestPaper.h */,
+				5F30011C27FF390E0087F642 /* TestPaper.m */,
+				5F30011E27FF392B0087F642 /* TestPaperA.h */,
+				5F30011F27FF392B0087F642 /* TestPaperA.m */,
+				5F30012127FF39370087F642 /* TestPaperB.h */,
+				5F30012227FF39370087F642 /* TestPaperB.m */,
+			);
+			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		5F634DE327E8B86A00F2C6AA /* Strategy */ = {
@@ -525,6 +548,7 @@
 				558DA85427EACF0E001F4B22 /* BigTrouser.m in Sources */,
 				5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
+				5F30012027FF392B0087F642 /* TestPaperA.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
@@ -537,8 +561,10 @@
 				5FD1F68D27F1F1F600F0B954 /* Resume.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
 				558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */,
+				5F30011D27FF390E0087F642 /* TestPaper.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
 				5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */,
+				5F30012327FF39370087F642 /* TestPaperB.m in Sources */,
 				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,
 				55F4169B27E85CF90057BC2B /* AppDelegate.m in Sources */,
 				5575073E27E9B17000BA2839 /* TextCourse.m in Sources */,
