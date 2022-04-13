@@ -40,6 +40,7 @@
 		5F1AEEB927ECB0CA00083346 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEB827ECB0CA00083346 /* Pursuit.m */; };
 		5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBB27ECB49300083346 /* Proxy.m */; };
 		5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1AEEBE27ECB69D00083346 /* ProxyTests.m */; };
+		5F1DF60528071EB500441E6F /* TemplateMethodTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F1DF60428071EB500441E6F /* TemplateMethodTests.m */; };
 		5F30011D27FF390E0087F642 /* TestPaper.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30011C27FF390E0087F642 /* TestPaper.m */; };
 		5F30012027FF392B0087F642 /* TestPaperA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30011F27FF392B0087F642 /* TestPaperA.m */; };
 		5F30012327FF39370087F642 /* TestPaperB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F30012227FF39370087F642 /* TestPaperB.m */; };
@@ -136,6 +137,7 @@
 		5F1AEEBB27ECB49300083346 /* Proxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
 		5F1AEEBE27ECB69D00083346 /* ProxyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProxyTests.m; sourceTree = "<group>"; };
 		5F1AEEC127ECCB4700083346 /* ILeiFeng.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ILeiFeng.h; sourceTree = "<group>"; };
+		5F1DF60428071EB500441E6F /* TemplateMethodTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateMethodTests.m; sourceTree = "<group>"; };
 		5F30011B27FF390E0087F642 /* TestPaper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaper.h; sourceTree = "<group>"; };
 		5F30011C27FF390E0087F642 /* TestPaper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestPaper.m; sourceTree = "<group>"; };
 		5F30011E27FF392B0087F642 /* TestPaperA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestPaperA.h; sourceTree = "<group>"; };
@@ -295,6 +297,7 @@
 		55F416B427E85CFB0057BC2B /* MXUDesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
+				5F1DF60328071ACB00441E6F /* TemplateMethod */,
 				5FD1F69427F1FB7100F0B954 /* Prototype */,
 				5FD926CB27EF4A4B00AB0005 /* FactoryMethod */,
 				5F1AEEBD27ECB68C00083346 /* Proxy */,
@@ -371,6 +374,14 @@
 				5FD926C927EE1BA700AB0005 /* VolunteerFactory.m */,
 			);
 			path = FactoryMethod;
+			sourceTree = "<group>";
+		};
+		5F1DF60328071ACB00441E6F /* TemplateMethod */ = {
+			isa = PBXGroup;
+			children = (
+				5F1DF60428071EB500441E6F /* TemplateMethodTests.m */,
+			);
+			path = TemplateMethod;
 			sourceTree = "<group>";
 		};
 		5F30011A27FF37F70087F642 /* TemplateMethod */ = {
@@ -588,6 +599,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F1DF60528071EB500441E6F /* TemplateMethodTests.m in Sources */,
 				5FD1F69627F1FB8F00F0B954 /* Prototype.m in Sources */,
 				5F1AEEBF27ECB69D00083346 /* ProxyTests.m in Sources */,
 				558DA85A27EB140A001F4B22 /* DecorateTests.m in Sources */,
