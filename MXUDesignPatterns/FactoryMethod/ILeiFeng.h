@@ -5,7 +5,9 @@
 //  Created by 木熹鱼 on 2022/3/24.
 //
 
-//#import <Foundation/Foundation.h>
+// MARK: 工厂方法模式
+
+#import <Foundation/Foundation.h>
 
 // 雷锋接口
 @protocol ILeiFeng <NSObject>

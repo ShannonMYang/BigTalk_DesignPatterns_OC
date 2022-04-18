@@ -49,6 +49,12 @@
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
 		5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEF27E8C79A00F2C6AA /* CashReturn.m */; };
 		5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DF227E8C97900F2C6AA /* StrategyTests.m */; };
+		5F73C97C280DBD7800B0900E /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C97B280DBD7800B0900E /* Fund.m */; };
+		5F73C97F280DBDDB00B0900E /* NationalDebt1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C97E280DBDDB00B0900E /* NationalDebt1.m */; };
+		5F73C982280DBE2500B0900E /* Realty1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C981280DBE2500B0900E /* Realty1.m */; };
+		5F73C985280DBE7500B0900E /* Stock1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C984280DBE7500B0900E /* Stock1.m */; };
+		5F73C988280DBE7E00B0900E /* Stock2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C987280DBE7E00B0900E /* Stock2.m */; };
+		5F73C98B280DBE8600B0900E /* Stock3.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C98A280DBE8600B0900E /* Stock3.m */; };
 		5FD1F68A27F1F09900F0B954 /* WorkExperience.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68927F1F09900F0B954 /* WorkExperience.m */; };
 		5FD1F68D27F1F1F600F0B954 /* Resume.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68C27F1F1F600F0B954 /* Resume.m */; };
 		5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD1F68F27F1F4A400F0B954 /* ResumeShallowCopy.m */; };
@@ -154,6 +160,18 @@
 		5F634DEE27E8C79A00F2C6AA /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
 		5F634DEF27E8C79A00F2C6AA /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
 		5F634DF227E8C97900F2C6AA /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		5F73C97A280DBD7800B0900E /* Fund.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
+		5F73C97B280DBD7800B0900E /* Fund.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
+		5F73C97D280DBDDB00B0900E /* NationalDebt1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NationalDebt1.h; sourceTree = "<group>"; };
+		5F73C97E280DBDDB00B0900E /* NationalDebt1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NationalDebt1.m; sourceTree = "<group>"; };
+		5F73C980280DBE2500B0900E /* Realty1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Realty1.h; sourceTree = "<group>"; };
+		5F73C981280DBE2500B0900E /* Realty1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Realty1.m; sourceTree = "<group>"; };
+		5F73C983280DBE7500B0900E /* Stock1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock1.h; sourceTree = "<group>"; };
+		5F73C984280DBE7500B0900E /* Stock1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock1.m; sourceTree = "<group>"; };
+		5F73C986280DBE7E00B0900E /* Stock2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock2.h; sourceTree = "<group>"; };
+		5F73C987280DBE7E00B0900E /* Stock2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock2.m; sourceTree = "<group>"; };
+		5F73C989280DBE8600B0900E /* Stock3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stock3.h; sourceTree = "<group>"; };
+		5F73C98A280DBE8600B0900E /* Stock3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Stock3.m; sourceTree = "<group>"; };
 		5FD1F68827F1F09900F0B954 /* WorkExperience.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WorkExperience.h; sourceTree = "<group>"; };
 		5FD1F68927F1F09900F0B954 /* WorkExperience.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WorkExperience.m; sourceTree = "<group>"; };
 		5FD1F68B27F1F1F600F0B954 /* Resume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Resume.h; sourceTree = "<group>"; };
@@ -275,6 +293,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F73C979280DBD4D00B0900E /* Facade */,
 				5F30011A27FF37F70087F642 /* TemplateMethod */,
 				5FD1F68727F1F06100F0B954 /* Prototype */,
 				5F1AEEC027ECCB1200083346 /* FactoryMethod */,
@@ -421,6 +440,25 @@
 			path = Strategy;
 			sourceTree = "<group>";
 		};
+		5F73C979280DBD4D00B0900E /* Facade */ = {
+			isa = PBXGroup;
+			children = (
+				5F73C97A280DBD7800B0900E /* Fund.h */,
+				5F73C97B280DBD7800B0900E /* Fund.m */,
+				5F73C97D280DBDDB00B0900E /* NationalDebt1.h */,
+				5F73C97E280DBDDB00B0900E /* NationalDebt1.m */,
+				5F73C980280DBE2500B0900E /* Realty1.h */,
+				5F73C981280DBE2500B0900E /* Realty1.m */,
+				5F73C983280DBE7500B0900E /* Stock1.h */,
+				5F73C984280DBE7500B0900E /* Stock1.m */,
+				5F73C986280DBE7E00B0900E /* Stock2.h */,
+				5F73C987280DBE7E00B0900E /* Stock2.m */,
+				5F73C989280DBE8600B0900E /* Stock3.h */,
+				5F73C98A280DBE8600B0900E /* Stock3.m */,
+			);
+			path = Facade;
+			sourceTree = "<group>";
+		};
 		5FD1F68727F1F06100F0B954 /* Prototype */ = {
 			isa = PBXGroup;
 			children = (
@@ -559,21 +597,27 @@
 				558DA85427EACF0E001F4B22 /* BigTrouser.m in Sources */,
 				5F1AEEBC27ECB49300083346 /* Proxy.m in Sources */,
 				55F416D827E8632C0057BC2B /* OperationSub.m in Sources */,
+				5F73C97F280DBDDB00B0900E /* NationalDebt1.m in Sources */,
 				5F30012027FF392B0087F642 /* TestPaperA.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
 				5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */,
 				5575073B27E9B0F800BA2839 /* Course.m in Sources */,
+				5F73C985280DBE7500B0900E /* Stock1.m in Sources */,
 				5F634DEA27E8C5A300F2C6AA /* CashNormal.m in Sources */,
 				5575073427E9AC5100BA2839 /* AccountantDepartment.m in Sources */,
 				5575073727E9AD0400BA2839 /* HRDepartment.m in Sources */,
+				5F73C982280DBE2500B0900E /* Realty1.m in Sources */,
 				5575074727E9B27C00BA2839 /* LiveCourse.m in Sources */,
 				5FD1F68D27F1F1F600F0B954 /* Resume.m in Sources */,
 				55F416A127E85CF90057BC2B /* ViewController.m in Sources */,
+				5F73C97C280DBD7800B0900E /* Fund.m in Sources */,
 				558DA85D27EB1C38001F4B22 /* Sneakers.m in Sources */,
+				5F73C988280DBE7E00B0900E /* Stock2.m in Sources */,
 				5F30011D27FF390E0087F642 /* TestPaper.m in Sources */,
 				5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */,
+				5F73C98B280DBE8600B0900E /* Stock3.m in Sources */,
 				5FD926C727EE1B9100AB0005 /* UndergraduateFactory.m in Sources */,
 				5F30012327FF39370087F642 /* TestPaperB.m in Sources */,
 				5F634DE727E8C40200F2C6AA /* CashContext.m in Sources */,

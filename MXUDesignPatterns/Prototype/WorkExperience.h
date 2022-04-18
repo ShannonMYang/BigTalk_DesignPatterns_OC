@@ -5,6 +5,8 @@
 //  Created by 木熹鱼 on 2022/3/28.
 //
 
+// MARK: 原型模式
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

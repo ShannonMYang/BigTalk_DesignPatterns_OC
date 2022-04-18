@@ -5,6 +5,8 @@
 //  Created by yxk on 2022/3/23.
 //
 
+// MARK: 装饰模式
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN

@@ -5,6 +5,8 @@
 //  Created by yxk on 2022/3/21.
 //
 
+// MARK: 简单工厂模式
+
 #import <Foundation/Foundation.h>
 
 //NS_ASSUME_NONNULL_BEGIN

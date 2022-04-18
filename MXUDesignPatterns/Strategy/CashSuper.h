@@ -5,6 +5,8 @@
 //  Created by 木熹鱼 on 2022/3/21.
 //
 
+// MARK: 策略模式
+
 #import <Foundation/Foundation.h>
 
 @protocol CashSuper <NSObject>

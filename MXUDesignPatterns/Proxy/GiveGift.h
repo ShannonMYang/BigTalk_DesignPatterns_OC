@@ -5,6 +5,8 @@
 //  Created by 木熹鱼 on 2022/3/24.
 //
 
+// MARK: 代理模式
+
 #import <Foundation/Foundation.h>
 
 @protocol GiveGift <NSObject>
