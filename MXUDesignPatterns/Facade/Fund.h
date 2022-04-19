@@ -16,7 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  购买基金
  */
-- (void)bugFund;
+- (void)buyFund;
 
 /**
  赎回基金
