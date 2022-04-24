@@ -49,6 +49,9 @@
 		5F634DED27E8C66E00F2C6AA /* CashRebate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEC27E8C66E00F2C6AA /* CashRebate.m */; };
 		5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DEF27E8C79A00F2C6AA /* CashReturn.m */; };
 		5F634DF327E8C97900F2C6AA /* StrategyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F634DF227E8C97900F2C6AA /* StrategyTests.m */; };
+		5F6648402815AA6A00908059 /* PersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F66483F2815AA6A00908059 /* PersonDirector.m */; };
+		5F6648442815AAA400908059 /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6648432815AAA400908059 /* PersonFatBuilder.m */; };
+		5F6648472815AAB000908059 /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F6648462815AAB000908059 /* PersonThinBuilder.m */; };
 		5F73C97C280DBD7800B0900E /* Fund.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C97B280DBD7800B0900E /* Fund.m */; };
 		5F73C97F280DBDDB00B0900E /* NationalDebt1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C97E280DBDDB00B0900E /* NationalDebt1.m */; };
 		5F73C982280DBE2500B0900E /* Realty1.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F73C981280DBE2500B0900E /* Realty1.m */; };
@@ -161,6 +164,13 @@
 		5F634DEE27E8C79A00F2C6AA /* CashReturn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CashReturn.h; sourceTree = "<group>"; };
 		5F634DEF27E8C79A00F2C6AA /* CashReturn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CashReturn.m; sourceTree = "<group>"; };
 		5F634DF227E8C97900F2C6AA /* StrategyTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyTests.m; sourceTree = "<group>"; };
+		5F66483E2815AA6A00908059 /* PersonDirector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonDirector.h; sourceTree = "<group>"; };
+		5F66483F2815AA6A00908059 /* PersonDirector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonDirector.m; sourceTree = "<group>"; };
+		5F6648412815AA8400908059 /* PersonBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		5F6648422815AAA400908059 /* PersonFatBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonFatBuilder.h; sourceTree = "<group>"; };
+		5F6648432815AAA400908059 /* PersonFatBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
+		5F6648452815AAB000908059 /* PersonThinBuilder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
+		5F6648462815AAB000908059 /* PersonThinBuilder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
 		5F73C97A280DBD7800B0900E /* Fund.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fund.h; sourceTree = "<group>"; };
 		5F73C97B280DBD7800B0900E /* Fund.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fund.m; sourceTree = "<group>"; };
 		5F73C97D280DBDDB00B0900E /* NationalDebt1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NationalDebt1.h; sourceTree = "<group>"; };
@@ -295,6 +305,7 @@
 				55F4169D27E85CF90057BC2B /* SceneDelegate.m */,
 				55F4169F27E85CF90057BC2B /* ViewController.h */,
 				55F416A027E85CF90057BC2B /* ViewController.m */,
+				5F66483A2815AA1F00908059 /* Builder */,
 				5F73C979280DBD4D00B0900E /* Facade */,
 				5F30011A27FF37F70087F642 /* TemplateMethod */,
 				5FD1F68727F1F06100F0B954 /* Prototype */,
@@ -441,6 +452,20 @@
 				5F634DF227E8C97900F2C6AA /* StrategyTests.m */,
 			);
 			path = Strategy;
+			sourceTree = "<group>";
+		};
+		5F66483A2815AA1F00908059 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				5F6648412815AA8400908059 /* PersonBuilder.h */,
+				5F66483E2815AA6A00908059 /* PersonDirector.h */,
+				5F66483F2815AA6A00908059 /* PersonDirector.m */,
+				5F6648422815AAA400908059 /* PersonFatBuilder.h */,
+				5F6648432815AAA400908059 /* PersonFatBuilder.m */,
+				5F6648452815AAB000908059 /* PersonThinBuilder.h */,
+				5F6648462815AAB000908059 /* PersonThinBuilder.m */,
+			);
+			path = Builder;
 			sourceTree = "<group>";
 		};
 		5F73C979280DBD4D00B0900E /* Facade */ = {
@@ -601,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5575074127E9B1AA00BA2839 /* VideoCourse.m in Sources */,
+				5F6648472815AAB000908059 /* PersonThinBuilder.m in Sources */,
 				5F1AEEB927ECB0CA00083346 /* Pursuit.m in Sources */,
 				5F1AEEB627ECB07F00083346 /* SchoolGirl.m in Sources */,
 				5575073127E9A95600BA2839 /* Employee.m in Sources */,
@@ -612,6 +638,7 @@
 				5F30012027FF392B0087F642 /* TestPaperA.m in Sources */,
 				5575074427E9B1F500BA2839 /* AudioCourse.m in Sources */,
 				5FD1F69027F1F4A400F0B954 /* ResumeShallowCopy.m in Sources */,
+				5F6648442815AAA400908059 /* PersonFatBuilder.m in Sources */,
 				55F416E127E864340057BC2B /* OperationFactory.m in Sources */,
 				5FD926C327EE19B000AB0005 /* Volunteer.m in Sources */,
 				5575073B27E9B0F800BA2839 /* Course.m in Sources */,
@@ -646,6 +673,7 @@
 				5F634DF027E8C79A00F2C6AA /* CashReturn.m in Sources */,
 				558DA84E27EAC6FC001F4B22 /* Person.m in Sources */,
 				5FD1F68A27F1F09900F0B954 /* WorkExperience.m in Sources */,
+				5F6648402815AA6A00908059 /* PersonDirector.m in Sources */,
 				55F416D527E862E50057BC2B /* OperationAdd.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
